@@ -5,7 +5,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | *Alura cast-codechela semana 1**
 | :label: Tecnologias | HTML, Css e grid(tecnologias utilizadas)
-| :rocket: URL         |[)
+| :rocket: URL         |[https://analuiza2102.github.io/Alura-Cast-/)
 | :fire: Desafio     |[https://cursos.alura.com.br/codechella-semana-1-monicahillman-1673444971285-p514255)
 
 
