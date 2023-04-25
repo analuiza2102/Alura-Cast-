@@ -1,0 +1,20 @@
+.menu-lateral {
+    display: grid; /* display: grid; irá criar uma grade de 3 linhas e 1 coluna */
+    grid-template-rows: repeat(3, auto) 1fr; /* grid-template-rows: repeat(3, auto) 1fr; irá criar uma grade de 3 linhas e 1 coluna, onde a primeira linha terá auto de altura, a segunda linha terá auto de altura, a terceira linha terá auto de altura e a quarta linha terá 1fr de altura */
+    row-gap: 2rem; /* row-gap: 2rem; irá criar um espaçamento de 2rem entre as linhas */
+}
+
+.menu-lateral__logo {
+    justify-self: center; /* justify-self: center; irá centralizar o elemento na linha */
+}
+
+
+.menu-lateral {
+    display: grid;
+    grid-template-rows: repeat(3, auto) 1fr;
+    row-gap: 2rem;
+}
+
+.menu-lateral__logo {
+    justify-self: center;
+}

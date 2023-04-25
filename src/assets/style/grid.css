@@ -1,0 +1,20 @@
+body{ 
+    display: grid;
+    grid-template-areas: /*Significa que a área aside vai ocupar a primeira linha e a segunda coluna, a área header vai ocupar a primeira linha e a terceira coluna e a área main vai ocupar a segunda linha e a segunda coluna*/
+        "aside header"     /* Definindo as áreas do grid */
+        "aside main";       /* Definindo as áreas do grid */
+        grid-template-columns: auto 1fr ; /* template-columns: auto 1fr; significa que a primeira coluna vai ter o tamanho automático e a segunda vai ocupar todo o espaço restante */
+}
+
+.cabecalho_container{
+    grid-area:header ;
+}
+
+
+.menu-lateral{
+    grid-area: aside;
+}
+
+.principal{
+    grid-area: main;
+}

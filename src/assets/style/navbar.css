@@ -1,0 +1,9 @@
+.navbar__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* grid-template-columns: repeat(3, 1fr); irá criar uma grade de 3 colunas e 1 linha, onde cada coluna terá 1fr de largura */
+} 
+
+.navbar__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
